@@ -61,7 +61,7 @@ def retention_new_variant_a(day):
 
 def retention_new_variant_b(day):
     """
-    New user source retention for Variant A:
+    New user source retention for Variant B:
     Retention = 0.52 * e^(-0.10 * (x - 1))
     """
     if day < 1:
