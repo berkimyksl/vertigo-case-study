@@ -1,0 +1,9 @@
+# environtment
+.venv/
+
+# jupyter files
+.ipynb_checkpoints/
+
+# data files
+data/*.csv.gz
+data/*.csv
