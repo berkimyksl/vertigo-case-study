@@ -298,9 +298,6 @@ def frustration_signals(df: pd.DataFrame) -> None:
         plt.savefig("plots/task_2_error_rate_countries.png")
         plt.close()
 
-        print("\n Debut error Rates:")
-        print(error_top["error_rate"].head(10))
-
         # Win Rate Distribution
         vals = df["win_rate"].dropna()
         
